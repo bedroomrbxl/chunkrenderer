@@ -9,7 +9,7 @@
 repeat task.wait(1) until game:IsLoaded()
 
 local LocalPlayer = game.Players.LocalPlayer
-local DebugModule = require(LocalPlayer.PlayerGui:WaitForChild("DebugInfo").DebugModule)
+-- local DebugModule = require(LocalPlayer.PlayerGui:WaitForChild("DebugInfo").DebugModule)
 local RunService = game:GetService("RunService")
 local InsertService = game:GetService("InsertService")
 
